@@ -1,0 +1,558 @@
+{
+  "meta": {
+    "title": "دليل الموارد التعليمية المفتوحة",
+    "version": "1.0",
+    "verified_on": "2026-11-20",
+    "count": 14,
+    "taxonomy": {
+      "domain": [
+        "العلوم",
+        "الرياضيات",
+        "اللغة والمهارات",
+        "الحاسب والبرمجة",
+        "العلوم الإنسانية والاجتماعية",
+        "التربية والتعليم المفتوح"
+      ],
+      "type": [
+        "محاكاة تفاعلية",
+        "قصة مصورة مسموعة",
+        "أنشطة صفية",
+        "مقرر إلكتروني",
+        "كتاب",
+        "دليل للمعلم",
+        "منصة ومكتبة رقمية"
+      ],
+      "audience": [
+        "المرحلة الابتدائية",
+        "المرحلة المتوسطة",
+        "المرحلة الثانوية",
+        "التعليم الجامعي",
+        "المعلمون وأعضاء هيئة التدريس"
+      ]
+    }
+  },
+  "resources": [
+    {
+      "id": "phet-fractions-intro",
+      "name_ar": "مقدمة الكسور",
+      "name_original": "Fractions: Intro",
+      "provider": "PhET Interactive Simulations – جامعة كولورادو بولدر",
+      "description": "محاكاة تفاعلية لبناء الكسور ومقارنتها بتمثيلات بصرية متعددة وخط الأعداد، مع لعبة مطابقة متدرجة الصعوبة.",
+      "domain": "الرياضيات",
+      "type": "محاكاة تفاعلية",
+      "audience": [
+        "المرحلة الابتدائية",
+        "المرحلة المتوسطة"
+      ],
+      "content_language": "متعدد اللغات (منها العربية)",
+      "interface_language": "العربية",
+      "url": "https://phet.colorado.edu/ar/simulations/fractions-intro",
+      "license": {
+        "code": "CC BY-NC",
+        "version": "4.0",
+        "label": "CC BY-NC 4.0",
+        "deed_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.ar",
+        "commercial_use": false,
+        "share_alike": false,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://phet.colorado.edu/en/licensing",
+        "https://phet.colorado.edu/ar/simulations/fractions-intro"
+      ],
+      "terms": "مسموح: الاستخدام والمشاركة والتعديل لأغراض غير تجارية مع النسبة بالنص الرسمي. غير مسموح: أي استخدام تجاري دون ترخيص تجاري من جامعة كولورادو بولدر. يجب أن يبقى شعار PhET ظاهرًا دون تغيير داخل المحاكاة.",
+      "exceptions": "اسم PhET وشعارها علامتان تجاريتان؛ منتجات PhET-iO خارج هذا الترخيص؛ النسخ المنشورة قبل 29 مارس 2026 كانت بترخيص CC BY 4.0، والرابط هنا للنسخة الحالية.",
+      "example": "يمثل تلاميذ الصف الثالث الكسر 3/4 بالدائرة والمستطيل وخط الأعداد، ثم يتنافسون في شاشة اللعبة.",
+      "evidence": "المستوى الرابع + الأول: صفحة التراخيص الرسمية (فُتحت مُصيَّرة في المتصفح) تنص على أن «Regular HTML Simulation Files» منشورة بترخيص CC BY-NC 4.0؛ وبيانات صفحة المحاكاة العربية تحمل رابط by-nc/4.0. ملف المحاكاة العربي على phet.colorado.edu/sims/html يعمل (محاكاة عادية لا PhET-iO).",
+      "access_check": "صفحة المورد العربية تفتح دون تسجيل؛ ملف المحاكاة العربي (الإصدار 1.0.35) يعمل من phet.colorado.edu/sims/html.",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Simulation by PhET Interactive Simulations, University of Colorado Boulder, licensed under CC BY-NC 4.0 (https://phet.colorado.edu)."
+    },
+    {
+      "id": "phet-area-builder",
+      "name_ar": "بناء المساحة",
+      "name_original": "Area Builder",
+      "provider": "PhET Interactive Simulations – جامعة كولورادو بولدر",
+      "description": "محاكاة لبناء أشكال من مربعات ملونة واستكشاف العلاقة بين المساحة والمحيط، مع شاشة ألعاب لحساب مساحة الأشكال غير المنتظمة.",
+      "domain": "الرياضيات",
+      "type": "محاكاة تفاعلية",
+      "audience": [
+        "المرحلة الابتدائية",
+        "المرحلة المتوسطة"
+      ],
+      "content_language": "متعدد اللغات (منها العربية)",
+      "interface_language": "العربية",
+      "url": "https://phet.colorado.edu/ar/simulations/area-builder",
+      "license": {
+        "code": "CC BY-NC",
+        "version": "4.0",
+        "label": "CC BY-NC 4.0",
+        "deed_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.ar",
+        "commercial_use": false,
+        "share_alike": false,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://phet.colorado.edu/en/licensing",
+        "https://phet.colorado.edu/ar/simulations/area-builder"
+      ],
+      "terms": "مسموح: الاستخدام والمشاركة والتعديل لأغراض غير تجارية مع النسبة بالنص الرسمي. غير مسموح: أي استخدام تجاري دون ترخيص تجاري من جامعة كولورادو بولدر. يجب أن يبقى شعار PhET ظاهرًا دون تغيير داخل المحاكاة.",
+      "exceptions": "اسم PhET وشعارها علامتان تجاريتان؛ منتجات PhET-iO خارج هذا الترخيص؛ النسخ المنشورة قبل 29 مارس 2026 كانت بترخيص CC BY 4.0، والرابط هنا للنسخة الحالية.",
+      "example": "يبني التلاميذ شكلين لهما المساحة نفسها ومحيطان مختلفان، ثم يناقشون سبب الاختلاف.",
+      "evidence": "المستوى الرابع + الأول: صفحة التراخيص الرسمية (فُتحت مُصيَّرة في المتصفح) تنص على أن «Regular HTML Simulation Files» منشورة بترخيص CC BY-NC 4.0؛ وبيانات صفحة المحاكاة العربية تحمل رابط by-nc/4.0. ملف المحاكاة العربي على phet.colorado.edu/sims/html يعمل (محاكاة عادية لا PhET-iO).",
+      "access_check": "صفحة المورد العربية تفتح دون تسجيل؛ ملف المحاكاة العربي (الإصدار 1.1.40) يعمل من phet.colorado.edu/sims/html.",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Simulation by PhET Interactive Simulations, University of Colorado Boulder, licensed under CC BY-NC 4.0 (https://phet.colorado.edu)."
+    },
+    {
+      "id": "phet-states-of-matter-basics",
+      "name_ar": "أساسيات حالات المادة",
+      "name_original": "States of Matter: Basics",
+      "provider": "PhET Interactive Simulations – جامعة كولورادو بولدر",
+      "description": "محاكاة لتسخين الجزيئات وتبريدها وضغطها ومشاهدة تحوّلها بين الحالات الصلبة والسائلة والغازية.",
+      "domain": "العلوم",
+      "type": "محاكاة تفاعلية",
+      "audience": [
+        "المرحلة الابتدائية",
+        "المرحلة المتوسطة",
+        "المرحلة الثانوية"
+      ],
+      "content_language": "متعدد اللغات (منها العربية)",
+      "interface_language": "العربية",
+      "url": "https://phet.colorado.edu/ar/simulations/states-of-matter-basics",
+      "license": {
+        "code": "CC BY-NC",
+        "version": "4.0",
+        "label": "CC BY-NC 4.0",
+        "deed_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.ar",
+        "commercial_use": false,
+        "share_alike": false,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://phet.colorado.edu/en/licensing",
+        "https://phet.colorado.edu/ar/simulations/states-of-matter-basics"
+      ],
+      "terms": "مسموح: الاستخدام والمشاركة والتعديل لأغراض غير تجارية مع النسبة بالنص الرسمي. غير مسموح: أي استخدام تجاري دون ترخيص تجاري من جامعة كولورادو بولدر. يجب أن يبقى شعار PhET ظاهرًا دون تغيير داخل المحاكاة.",
+      "exceptions": "اسم PhET وشعارها علامتان تجاريتان؛ منتجات PhET-iO خارج هذا الترخيص؛ النسخ المنشورة قبل 29 مارس 2026 كانت بترخيص CC BY 4.0، والرابط هنا للنسخة الحالية.",
+      "example": "يتنبأ التلاميذ بما يحدث لجزيئات الماء عند التسخين، ثم يختبرون تنبؤهم ويصفون حركة الجزيئات في كل حالة.",
+      "evidence": "المستوى الرابع + الأول: صفحة التراخيص الرسمية (فُتحت مُصيَّرة في المتصفح) تنص على أن «Regular HTML Simulation Files» منشورة بترخيص CC BY-NC 4.0؛ وبيانات صفحة المحاكاة العربية تحمل رابط by-nc/4.0. ملف المحاكاة العربي على phet.colorado.edu/sims/html يعمل (محاكاة عادية لا PhET-iO).",
+      "access_check": "صفحة المورد العربية تفتح دون تسجيل؛ ملف المحاكاة العربي (الإصدار 1.2.25) يعمل من phet.colorado.edu/sims/html.",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Simulation by PhET Interactive Simulations, University of Colorado Boulder, licensed under CC BY-NC 4.0 (https://phet.colorado.edu)."
+    },
+    {
+      "id": "phet-circuit-dc",
+      "name_ar": "أدوات بناء الدارة الكهربائية: التيار المستمر",
+      "name_original": "Circuit Construction Kit: DC",
+      "provider": "PhET Interactive Simulations – جامعة كولورادو بولدر",
+      "description": "مختبر افتراضي لبناء دوائر كهربائية بالبطاريات والمقاومات والمصابيح والمفاتيح، وقياس التيار والجهد.",
+      "domain": "العلوم",
+      "type": "محاكاة تفاعلية",
+      "audience": [
+        "المرحلة المتوسطة",
+        "المرحلة الثانوية",
+        "التعليم الجامعي"
+      ],
+      "content_language": "متعدد اللغات (منها العربية)",
+      "interface_language": "العربية",
+      "url": "https://phet.colorado.edu/ar/simulations/circuit-construction-kit-dc",
+      "license": {
+        "code": "CC BY-NC",
+        "version": "4.0",
+        "label": "CC BY-NC 4.0",
+        "deed_url": "https://creativecommons.org/licenses/by-nc/4.0/deed.ar",
+        "commercial_use": false,
+        "share_alike": false,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://phet.colorado.edu/en/licensing",
+        "https://phet.colorado.edu/ar/simulations/circuit-construction-kit-dc"
+      ],
+      "terms": "مسموح: الاستخدام والمشاركة والتعديل لأغراض غير تجارية مع النسبة بالنص الرسمي. غير مسموح: أي استخدام تجاري دون ترخيص تجاري من جامعة كولورادو بولدر. يجب أن يبقى شعار PhET ظاهرًا دون تغيير داخل المحاكاة.",
+      "exceptions": "اسم PhET وشعارها علامتان تجاريتان؛ منتجات PhET-iO خارج هذا الترخيص؛ النسخ المنشورة قبل 29 مارس 2026 كانت بترخيص CC BY 4.0، والرابط هنا للنسخة الحالية.",
+      "example": "يبني الطلاب دائرتين على التوالي والتوازي بالمصابيح نفسها، ويقيسون التيار في كل منهما ويقارنون شدة الإضاءة.",
+      "evidence": "المستوى الرابع + الأول: صفحة التراخيص الرسمية (فُتحت مُصيَّرة في المتصفح) تنص على أن «Regular HTML Simulation Files» منشورة بترخيص CC BY-NC 4.0؛ وبيانات صفحة المحاكاة العربية تحمل رابط by-nc/4.0. ملف المحاكاة العربي على phet.colorado.edu/sims/html يعمل (محاكاة عادية لا PhET-iO).",
+      "access_check": "صفحة المورد العربية تفتح دون تسجيل؛ ملف المحاكاة العربي (الإصدار 1.5.4) يعمل من phet.colorado.edu/sims/html.",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Simulation by PhET Interactive Simulations, University of Colorado Boulder, licensed under CC BY-NC 4.0 (https://phet.colorado.edu)."
+    },
+    {
+      "id": "gsb-counting-animals",
+      "name_ar": "لِنَعُدَّ الحَيَوَانَاتِ",
+      "name_original": "Counting animals",
+      "provider": "Global Storybooks (جامعة كولومبيا البريطانية)، عن African Storybook",
+      "description": "قصة مصورة للقارئ المبتدئ تعدّ الحيوانات من واحد إلى عشرة وهي تذهب لشرب الماء، بنص عربي مشكول وسرد صوتي.",
+      "domain": "الرياضيات",
+      "type": "قصة مصورة مسموعة",
+      "audience": [
+        "المرحلة الابتدائية"
+      ],
+      "content_language": "العربية",
+      "interface_language": "الإنجليزية (أزرار الموقع)",
+      "url": "https://global-asp.github.io/storybooks-uk/stories/ar/0327",
+      "license": {
+        "code": "CC BY",
+        "version": "3.0",
+        "label": "CC BY 3.0",
+        "deed_url": "https://creativecommons.org/licenses/by/3.0/deed.ar",
+        "commercial_use": true,
+        "share_alike": false,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://global-asp.github.io/storybooks-uk/stories/ar/0327"
+      ],
+      "terms": "نسبة القصة إلى المؤلفين Zanele Buthelezi وThembani Dladla وClare Verbeek، والرسام Rob Owen، والمترجم Maaouia Haj Mabrouk، والمصدر African Storybook؛ يُسمح بالتعديل والاستخدام التجاري.",
+      "exceptions": "يشمل نص القصة ورسومها وتسجيلها كما تنص صفحة القصة؛ النسبة إلى المؤلفين والرسام والمترجم والمصدر.",
+      "example": "يستمع تلاميذ الصف الأول إلى القصة، ثم يعدّون حيوانات كل صفحة ويكتبون العدد بالأرقام والحروف.",
+      "evidence": "المستوى الأول: صفحة القصة العربية نفسها تنص على CC BY 3.0، وتذكر المؤلفين والرسام والمترجم والقارئة والمصدر.",
+      "access_check": "فُتحت دون تسجيل؛ النص والصوت متاحان.",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Zanele Buthelezi, Thembani Dladla, Clare Verbeek؛ رسوم Rob Owen؛ ترجمة Maaouia Haj Mabrouk؛ المصدر African Storybook — CC BY 3.0"
+    },
+    {
+      "id": "gsb-i-like-to-read",
+      "name_ar": "أُحِبُّ أَنْ أَقْرَأَ!",
+      "name_original": "I like to read",
+      "provider": "Global Storybooks (جامعة كولومبيا البريطانية)، عن African Storybook",
+      "description": "قصة مصورة للقارئ المبتدئ عن حب القراءة، بنص عربي مشكول وتسجيل صوتي لكل صفحة.",
+      "domain": "اللغة والمهارات",
+      "type": "قصة مصورة مسموعة",
+      "audience": [
+        "المرحلة الابتدائية"
+      ],
+      "content_language": "العربية",
+      "interface_language": "الإنجليزية (أزرار الموقع)",
+      "url": "https://global-asp.github.io/storybooks-uk/stories/ar/0087",
+      "license": {
+        "code": "CC BY",
+        "version": "3.0",
+        "label": "CC BY 3.0",
+        "deed_url": "https://creativecommons.org/licenses/by/3.0/deed.ar",
+        "commercial_use": true,
+        "share_alike": false,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://global-asp.github.io/storybooks-uk/stories/ar/0087"
+      ],
+      "terms": "نسبة القصة إلى المؤلفة Letta Machoga، والرسام Wiehan de Jager، والمترجمين Hanadi Traifeh وMaaouia Haj Mabrouk، والمصدر African Storybook؛ يُسمح بالتعديل والاستخدام التجاري.",
+      "exceptions": "يشمل نص القصة ورسومها وتسجيلها كما تنص صفحة القصة؛ النسبة إلى المؤلفين والرسام والمترجم والمصدر.",
+      "example": "قراءة جهرية مشتركة في حصة اللغة العربية، ثم يرسم كل تلميذ صفحة جديدة عن كتابه المفضل ويكتب تحتها جملة.",
+      "evidence": "المستوى الأول: صفحة القصة العربية نفسها تنص على CC BY 3.0.",
+      "access_check": "فُتحت دون تسجيل؛ النص والصوت متاحان.",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Letta Machoga؛ رسوم Wiehan de Jager؛ ترجمة Hanadi Traifeh وMaaouia Haj Mabrouk؛ المصدر African Storybook — CC BY 3.0"
+    },
+    {
+      "id": "im-k5-centers",
+      "name_ar": "مراكز الرياضيات لرياض الأطفال – منهج IM K–5",
+      "name_original": "IM K–5 Math: Kindergarten Centers",
+      "provider": "Illustrative Mathematics، عبر شريكها المعتمد Kendall Hunt",
+      "description": "أنشطة وألعاب رياضية صفية للصغار (إطارات العد، بناء الأشكال، العد والمقارنة) مع أوراق عمل قابلة للتنزيل.",
+      "domain": "الرياضيات",
+      "type": "أنشطة صفية",
+      "audience": [
+        "المرحلة الابتدائية"
+      ],
+      "content_language": "الإنجليزية",
+      "interface_language": "الإنجليزية",
+      "url": "https://im.kendallhunt.com/K5/teachers/kindergarten/centers.html",
+      "license": {
+        "code": "CC BY",
+        "version": "4.0",
+        "label": "CC BY 4.0",
+        "deed_url": "https://creativecommons.org/licenses/by/4.0/deed.ar",
+        "commercial_use": true,
+        "share_alike": false,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://im.kendallhunt.com/K5/teachers/kindergarten/centers.html",
+        "https://illustrativemathematics.org/site-ip-content/"
+      ],
+      "terms": "النسبة بصيغة «Based on IM K–12 Math by Illustrative Mathematics, CC BY 4.0»؛ يُسمح بالتعديل والاستخدام التجاري؛ اسم IM وشعاره خارج الترخيص، والصور المرخصة من أطراف أخرى تبقى بتراخيصها.",
+      "exceptions": "يشمل نسخة IM K–5 Math المفتوحة على im.kendallhunt.com؛ لا يشمل اسم IM وشعاره، ولا الصور المرخصة من أطراف أخرى، ولا نسخة IM v.360 (CC BY-NC 4.0).",
+      "example": "يعرّب المعلم نشاط «إطارات العد الخمسية» ويطبقه في ركن الرياضيات بمجموعات صغيرة.",
+      "evidence": "المستوى الأول: تذييل صفحة المراكز ينص على CC BY 4.0 مع استثناء الاسم والشعار؛ وصفحة الملكية الفكرية لـ IM تؤكد CC BY 4.0 للنسخة المفتوحة (وCC BY-NC 4.0 لنسخة v.360 المختلفة).",
+      "access_check": "صفحة المراكز وصفحة نشاط «5-frames» بمراحله وتوجيهاته تفتحان دون تسجيل؛ رابط تسجيل المعلمين اختياري.",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Based on IM K–12 Math by Illustrative Mathematics, CC BY 4.0"
+    },
+    {
+      "id": "tessa-arabic",
+      "name_ar": "موارد TESSA العربية لإعداد المعلمين",
+      "name_original": "TESSA – Arabic – All Africa",
+      "provider": "مبادرة TESSA – الجامعة المفتوحة البريطانية (منصة OpenLearn Create)",
+      "description": "وحدات عملية بالعربية لمعلمي المرحلة الابتدائية في القراءة والكتابة والرياضيات والعلوم والدراسات الاجتماعية والمهارات الحياتية، مع أدلة وموارد أساسية للمعلم.",
+      "domain": "التربية والتعليم المفتوح",
+      "type": "دليل للمعلم",
+      "audience": [
+        "المعلمون وأعضاء هيئة التدريس",
+        "المرحلة الابتدائية"
+      ],
+      "content_language": "العربية",
+      "interface_language": "الإنجليزية (واجهة المنصة)",
+      "url": "https://www.open.edu/openlearncreate/course/view.php?id=2198",
+      "license": {
+        "code": "CC BY-SA",
+        "version": "4.0",
+        "label": "CC BY-SA 4.0",
+        "deed_url": "https://creativecommons.org/licenses/by-sa/4.0/deed.ar",
+        "commercial_use": true,
+        "share_alike": true,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://www.open.edu/openlearncreate/course/view.php?id=2198"
+      ],
+      "terms": "النسبة إلى TESSA؛ المشاركة بالمثل للأعمال المعدلة؛ يُسمح بالاستخدام التجاري؛ مواد الأطراف الثالثة المستخدمة بإذن خارج الترخيص.",
+      "exceptions": "يشمل مواد المقرر بنص صفحة المقرر؛ لا يشمل مواد الأطراف الثالثة المستخدمة بإذن. تذييل الموقع العام «ما لم يُذكر خلاف ذلك، جميع الحقوق محفوظة» تتقدم عليه عبارة الترخيص الصريحة في المقرر.",
+      "example": "يستخدم معلم العلوم وحدة «طبيعة المواد» لتخطيط نشاط استقصائي جماعي في الصف الرابع.",
+      "evidence": "المستوى الأول: صفحة المقرر تنص على «This material is made available under CC BY-SA 4.0: TESSA» مع استثناء مواد الأطراف الثالثة.",
+      "access_check": "فُتحت صفحة المقرر ووحدة «التقصّي في العدد والنمط» دون تسجيل؛ التسجيل اختياري لحفظ التقدم.",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "TESSA – Arabic – All Africa, The Open University (OpenLearn Create) — CC BY-SA 4.0"
+    },
+    {
+      "id": "openmed-course-ar",
+      "name_ar": "التعليم المفتوح: أساسيات ونُهج",
+      "name_original": "Open Education: Fundamentals and Approaches",
+      "provider": "مشروع OpenMed (برنامج إيراسموس+، الاتحاد الأوروبي)",
+      "description": "مقرر تدريبي عربي يعرّف بالموارد والممارسات التعليمية المفتوحة ويقدم رحلة تعلم نحو انفتاح التدريس في التعليم العالي.",
+      "domain": "التربية والتعليم المفتوح",
+      "type": "مقرر إلكتروني",
+      "audience": [
+        "المعلمون وأعضاء هيئة التدريس",
+        "التعليم الجامعي"
+      ],
+      "content_language": "العربية",
+      "interface_language": "الإنجليزية (صفحة المستودع)؛ الملف عربي",
+      "url": "https://zenodo.org/records/1436502",
+      "license": {
+        "code": "CC BY",
+        "version": "4.0",
+        "label": "CC BY 4.0",
+        "deed_url": "https://creativecommons.org/licenses/by/4.0/deed.ar",
+        "commercial_use": true,
+        "share_alike": false,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://zenodo.org/records/1436502"
+      ],
+      "terms": "النسبة إلى المساهمين في مشروع OpenMed؛ يُسمح بالتعديل والاستخدام التجاري مع ذكر التعديلات.",
+      "exceptions": "يشمل ملف المقرر العربي كاملًا حسب السجل والملف.",
+      "example": "يعتمده منسق التطوير المهني مادةً لورشة عن تحويل مقرر جامعي إلى مورد مفتوح.",
+      "evidence": "المستوى الثالث والثاني: سجل Zenodo ينص على CC BY 4.0، وصفحة الحقوق داخل الملف العربي تنص على الترخيص نفسه.",
+      "access_check": "السجل يفتح، وملف PDF العربي يُنزَّل دون تسجيل.",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "OpenMed project (Erasmus+), «التعليم المفتوح: أساسيات ونُهج», 2018, https://doi.org/10.5281/zenodo.1436502 — CC BY 4.0"
+    },
+    {
+      "id": "basic-guide-oer",
+      "name_ar": "الدليل الأساسي للموارد التعليمية المفتوحة",
+      "name_original": "A Basic Guide to Open Educational Resources (OER)",
+      "provider": "رابطة الكومنولث للتعلم (COL) واليونسكو",
+      "description": "دليل يجيب عن الأسئلة الشائعة حول الموارد التعليمية المفتوحة وتراخيصها ومبررات تبنيها في المؤسسات التعليمية.",
+      "domain": "التربية والتعليم المفتوح",
+      "type": "دليل للمعلم",
+      "audience": [
+        "المعلمون وأعضاء هيئة التدريس"
+      ],
+      "content_language": "الإنجليزية",
+      "interface_language": "الإنجليزية",
+      "url": "https://www.oerknowledgecloud.org/archive/Basic-Guide-To-OER%5b1%5d.pdf",
+      "license": {
+        "code": "CC BY-SA",
+        "version": "3.0",
+        "label": "CC BY-SA 3.0",
+        "deed_url": "https://creativecommons.org/licenses/by-sa/3.0/deed.ar",
+        "commercial_use": true,
+        "share_alike": true,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://www.oerknowledgecloud.org/archive/Basic-Guide-To-OER%5b1%5d.pdf"
+      ],
+      "terms": "النسبة إلى رابطة الكومنولث للتعلم والمؤلف Neil Butcher؛ المشاركة بالمثل؛ يُسمح بالاستخدام التجاري.",
+      "exceptions": "يشمل طبعة COL 2011 المرتبطة؛ طبعة اليونسكو 2015 تحمل ترخيصًا مختلفًا (CC BY-SA 3.0 IGO) ولا يُرتبط بها. ملاحظة: الملحق السابع منقول «بإذن» من موقع OER Africa، ولا تنص الوثيقة على استثنائه من الترخيص؛ يُستحسن الرجوع إلى مصدره عند إعادة استخدامه منفصلًا.",
+      "example": "يقرأ المعلمون فصل «الأسئلة الشائعة» قبل اختيار موارد مفتوحة لمدرستهم.",
+      "evidence": "المستوى الثاني: صفحة الحقوق داخل طبعة COL 2011 (ISBN 978-1-894975-41-4) تنص على CC-BY-SA 3.0. الملف مستضاف في مستودع OER Knowledge Cloud؛ سجل COL الرسمي: oasis.col.org/handle/11599/36.",
+      "access_check": "ملف PDF يفتح دون تسجيل (الرابط القديم يُحوَّل إلى هذا الرابط).",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Neil Butcher, A Basic Guide to Open Educational Resources (OER), Commonwealth of Learning, 2011 — CC BY-SA 3.0"
+    },
+    {
+      "id": "writing-guide",
+      "name_ar": "دليل الكتابة مع كتيّب مرجعي",
+      "name_original": "Writing Guide with Handbook",
+      "provider": "OpenStax – جامعة رايس",
+      "description": "كتاب في الكتابة الأكاديمية والبحث والتوثيق، مع كتيب في القواعد والأخطاء الشائعة وأنماط الاقتباس.",
+      "domain": "اللغة والمهارات",
+      "type": "كتاب",
+      "audience": [
+        "التعليم الجامعي"
+      ],
+      "content_language": "الإنجليزية",
+      "interface_language": "الإنجليزية",
+      "url": "https://openstax.org/books/writing-guide/pages/preface",
+      "license": {
+        "code": "CC BY-NC-SA",
+        "version": "4.0",
+        "label": "CC BY-NC-SA 4.0",
+        "deed_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ar",
+        "commercial_use": false,
+        "share_alike": true,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://openstax.org/books/writing-guide/pages/preface"
+      ],
+      "terms": "النسبة إلى OpenStax والمساهمين؛ غير تجاري؛ المشاركة بالمثل؛ اسم OpenStax وشعارها وأغلفتها خارج الترخيص؛ يمنع الناشر استخدامه في تدريب النماذج اللغوية دون إذن.",
+      "exceptions": "يشمل نص الكتاب ورسومه غير المنسوبة؛ الرسوم المنسوبة تحمل ترخيصها في تعليقها؛ لا يشمل اسم OpenStax وشعارها وأغلفتها؛ لا يُسمح باستخدامه في تدريب النماذج اللغوية دون إذن.",
+      "example": "يستخدم طلاب مقرر مهارات الكتابة الفصل الخاص بالبحث وتوثيق المصادر في إعداد ورقة قصيرة.",
+      "evidence": "المستوى الأول: مقدمة الكتاب تنص على CC BY NC-SA 4.0 لهذا الكتاب تحديدًا.",
+      "access_check": "فُتحت صفحة الكتاب على الويب دون تسجيل (عُدّل الرابط إليها لأن صفحة التفاصيل لا توضح شروط الوصول).",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Access for free at https://openstax.org/books/writing-guide/pages/1-unit-introduction — OpenStax, CC BY-NC-SA 4.0"
+    },
+    {
+      "id": "py4e",
+      "name_ar": "بايثون للجميع",
+      "name_original": "Python for Everybody: Exploring Data Using Python 3",
+      "provider": "د. تشارلز سيفرانس – جامعة ميشيغان",
+      "description": "كتاب مدخلي في البرمجة بلغة بايثون 3 من منظور استكشاف البيانات.",
+      "domain": "الحاسب والبرمجة",
+      "type": "كتاب",
+      "audience": [
+        "المرحلة الثانوية",
+        "التعليم الجامعي"
+      ],
+      "content_language": "الإنجليزية",
+      "interface_language": "ملف PDF",
+      "url": "https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf",
+      "license": {
+        "code": "CC BY-NC-SA",
+        "version": "3.0",
+        "label": "CC BY-NC-SA 3.0",
+        "deed_url": "https://creativecommons.org/licenses/by-nc-sa/3.0/deed.ar",
+        "commercial_use": false,
+        "share_alike": true,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://do1.dr-chuck.com/pythonlearn/EN_us/pythonlearn.pdf"
+      ],
+      "terms": "النسبة إلى Charles Severance؛ غير تجاري (مع استثناءات يحددها المؤلف في ملحق الحقوق)؛ المشاركة بالمثل.",
+      "exceptions": "يشمل ملف الكتاب المرتبط؛ لا يُعمَّم على نسخة HTML أو الترجمات التي لم يُتحقق من ترخيصها.",
+      "example": "يحل طلاب الثانوية تمارين الفصل الثاني لكتابة برنامج يحسب معدل درجات من ملف بيانات.",
+      "evidence": "المستوى الثاني: صفحة الحقوق في ملف PDF الرسمي (رابطه منشور في py4e.com/book) تنص على CC BY-NC-SA 3.0 Unported.",
+      "access_check": "ملف PDF (الطبعة المحدثة في 2024) يُنزَّل دون تسجيل.",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Charles R. Severance, Python for Everybody: Exploring Data Using Python 3 — CC BY-NC-SA 3.0"
+    },
+    {
+      "id": "owid-literacy",
+      "name_ar": "معرفة القراءة والكتابة – عالمنا في بيانات",
+      "name_original": "Literacy – Our World in Data",
+      "provider": "Our World in Data – Global Change Data Lab",
+      "description": "صفحة موضوعية بحثية تعرض بيانات ورسومًا تفاعلية عن تطور معرفة القراءة والكتابة في العالم عبر الزمن.",
+      "domain": "العلوم الإنسانية والاجتماعية",
+      "type": "منصة ومكتبة رقمية",
+      "audience": [
+        "المرحلة الثانوية",
+        "التعليم الجامعي",
+        "المعلمون وأعضاء هيئة التدريس"
+      ],
+      "content_language": "الإنجليزية",
+      "interface_language": "الإنجليزية",
+      "url": "https://ourworldindata.org/literacy",
+      "license": {
+        "code": "CC BY",
+        "version": "4.0",
+        "label": "CC BY 4.0",
+        "deed_url": "https://creativecommons.org/licenses/by/4.0/deed.ar",
+        "commercial_use": true,
+        "share_alike": false,
+        "no_derivatives": false,
+        "applies_to": "المورد"
+      },
+      "license_proof": [
+        "https://ourworldindata.org/literacy"
+      ],
+      "terms": "الترخيص CC BY 4.0 يشمل الرسوم والبيانات والمقالات الأصلية التي تنتجها Our World in Data فقط؛ البيانات الصادرة عن جهات خارجية تخضع لشروط مؤلفيها الأصليين ويجب فحصها قبل إعادة التوزيع؛ يُنسب العمل إلى Our World in Data وإلى المصدر الأصلي للبيانات.",
+      "exceptions": "يشمل المحتوى الأصلي للمنصة فقط؛ بيانات الأطراف الثالثة مستثناة.",
+      "example": "يحلل طلاب الدراسات الاجتماعية رسمًا يقارن نسب الأمية بين البلدان العربية ويكتبون استنتاجين.",
+      "evidence": "المستوى الأول: قسم «Reuse this work freely» في الصفحة يربط بـ creativecommons.org/licenses/by/4.0 لما تنتجه المنصة، ويستثني بيانات الأطراف الثالثة.",
+      "access_check": "فُتحت الصفحة دون تسجيل.",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Our World in Data, Literacy, https://ourworldindata.org/literacy — CC BY 4.0 (+ المصدر الأصلي للبيانات)"
+    },
+    {
+      "id": "smarthistory-umayyads",
+      "name_ar": "الأمويون: مقدمة",
+      "name_original": "The Umayyads, an introduction",
+      "provider": "Smarthistory – المقالة بقلم Dr. Elizabeth Macaulay (8 سبتمبر 2019)",
+      "description": "مقالة تعريفية بالدولة الأموية وإنجازاتها المعمارية والفنية: قبة الصخرة، والمسجد الأموي بدمشق، والمسجد الأقصى، وإصلاح العملة، وقصور البادية، وجامع قرطبة.",
+      "domain": "العلوم الإنسانية والاجتماعية",
+      "type": "منصة ومكتبة رقمية",
+      "audience": [
+        "المرحلة الثانوية",
+        "التعليم الجامعي"
+      ],
+      "content_language": "الإنجليزية",
+      "interface_language": "الإنجليزية",
+      "url": "https://smarthistory.org/umayyads/",
+      "license": {
+        "code": "CC BY-NC-SA",
+        "version": "4.0",
+        "label": "CC BY-NC-SA 4.0",
+        "deed_url": "https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ar",
+        "commercial_use": false,
+        "share_alike": true,
+        "no_derivatives": false,
+        "applies_to": "النص فقط"
+      },
+      "license_proof": [
+        "https://smarthistory.org/umayyads/",
+        "https://smarthistory.org/faq"
+      ],
+      "terms": "ترخيص النص: CC BY-NC-SA 4.0 — مسموح النسخ والتعديل والمشاركة لأغراض غير تجارية مع النسبة إلى الكاتبة وSmarthistory ونشر المعدَّل بالترخيص نفسه. الصور تخضع لتراخيص مستقلة.",
+      "exceptions": "الصور التسع مستثناة بتراخيصها الخاصة: صورتا العملات «© The Trustees of the British Museum» (جميع الحقوق محفوظة)، وصورة جامع قرطبة CC BY-NC-ND 2.0، والبقية CC BY 2.0 / CC BY 2.5 / CC BY-SA 4.0 / CC BY-NC 2.0 / CC BY-NC-SA 2.0 و4.0. لا يعيد الدليل نشر أي صورة منها.",
+      "example": "يقرأ طلاب الثانوية المقالة ويعدّون خطًا زمنيًا للمنشآت الأموية، ثم يقارنون بين قبة الصخرة والمسجد الأموي بدمشق.",
+      "evidence": "المستوى الأول: صفحة المقالة (فُتحت مُصيَّرة في المتصفح) تعرض «© 2026 Smarthistory» مع رابط creativecommons.org/licenses/by-nc-sa/4.0 وسطر الاستشهاد؛ ويؤكده بيان صفحة الأسئلة الشائعة.",
+      "access_check": "المقالة كاملة تفتح دون تسجيل (ظهر فحص أمان آلي من Cloudflare مرّ تلقائيًا).",
+      "verified_on": "2026-11-20",
+      "status": "معتمد",
+      "attribution": "Dr. Elizabeth Macaulay, \"The Umayyads, an introduction,\" in Smarthistory, September 8, 2019, https://smarthistory.org/umayyads/ — CC BY-NC-SA 4.0"
+    }
+  ]
+}

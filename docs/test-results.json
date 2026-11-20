@@ -1,0 +1,854 @@
+[
+ {
+  "group": "سلامة البيانات",
+  "test": "عدد الموارد 14",
+  "ok": true,
+  "detail": "14"
+ },
+ {
+  "group": "سلامة البيانات",
+  "test": "الترتيب المعتمد يغطي كل الموارد دون تكرار",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "سلامة البيانات",
+  "test": "كل الحقول الإلزامية مكتملة",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "سلامة البيانات",
+  "test": "اتساق الترخيص (الرمز/الإصدار/رابط الملخص/المؤشرات) وعدم وجود ND",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "سلامة البيانات",
+  "test": "resources.js مطابق لـ resources.json",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "سلامة البيانات",
+  "test": "لا يوجد شعار جامعة طيبة ضمن الأصول",
+  "ok": true,
+  "detail": "['favicon.svg', 'hero.webp']"
+ },
+ {
+  "group": "سلامة البيانات",
+  "test": "ملفات الخط محلية مع نص ترخيص OFL",
+  "ok": true,
+  "detail": "['Alexandria-Bold.woff', 'Alexandria-Medium.woff', 'Alexandria-Regular.woff', 'Alexandria-SemiBold.woff', 'OFL.txt']"
+ },
+ {
+  "group": "سلامة البيانات",
+  "test": "لا موارد خارجية تُحمَّل (خطوط/سكربتات/صور)",
+  "ok": true,
+  "detail": "['https://creativecommons.org/licenses/', 'https://creativecommons.org/licenses/by-nc-sa/3.0/deed.ar', 'https://creativecommons.org/licenses/by-nc-sa/4.0/deed.ar', 'https://creativecommons.org/licenses/by-nc/4.0/deed.ar', 'https://creativecommons.org/licenses/by-sa/3.0/deed.ar']"
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "#/ يعرض عنوانًا رئيسًا واحدًا وعنوان صفحة صحيحًا",
+  "ok": true,
+  "detail": "الرئيسة — دليل الموارد التعليمية المفتوحة"
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "#/ يميّز الرابط الحالي في القائمة",
+  "ok": true,
+  "detail": "['الرئيسة']"
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "#/resources يعرض عنوانًا رئيسًا واحدًا وعنوان صفحة صحيحًا",
+  "ok": true,
+  "detail": "فهرس الموارد — دليل الموارد التعليمية المفتوحة"
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "#/resources يميّز الرابط الحالي في القائمة",
+  "ok": true,
+  "detail": "['فهرس الموارد']"
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "#/licenses يعرض عنوانًا رئيسًا واحدًا وعنوان صفحة صحيحًا",
+  "ok": true,
+  "detail": "افهم التراخيص — دليل الموارد التعليمية المفتوحة"
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "#/licenses يميّز الرابط الحالي في القائمة",
+  "ok": true,
+  "detail": "['افهم التراخيص']"
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "#/about يعرض عنوانًا رئيسًا واحدًا وعنوان صفحة صحيحًا",
+  "ok": true,
+  "detail": "عن الدليل — دليل الموارد التعليمية المفتوحة"
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "#/about يميّز الرابط الحالي في القائمة",
+  "ok": true,
+  "detail": "['عن الدليل']"
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "مسار غير معروف يعرض «الصفحة غير موجودة»",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "معرّف مورد غير صحيح يعرض «غير موجودة»",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "بطاقة المجال في الرئيسة تنقل إلى الفهرس مصفّى",
+  "ok": true,
+  "detail": "http://localhost:8765/#/resources?domain=%D8%A7%D9%84%D8%B1%D9%8A%D8%A7%D8%B6%D9%8A%D8%A7%D8%AA"
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "رابط المجموعة 3 في الرئيسة ينقل إلى الفهرس",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الصفحات والتوجيه",
+  "test": "زر الرجوع في المتصفح يعمل مع التوجيه",
+  "ok": true,
+  "detail": "http://localhost:8765/#/resources"
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "يعرض الفهرس 14 بطاقة بالترتيب المعتمد",
+  "ok": true,
+  "detail": "['gsb-counting-animals', 'gsb-i-like-to-read', 'openmed-course-ar', 'phet-fractions-intro', 'phet-area-builder', 'phet-states-of-matter-basics', 'phet-circuit-dc', 'basic-guide-oer', 'py4e', 'im-k5-centers', 'tessa-arabic', 'writing-guide', 'owid-literacy', 'smarthistory-umayyads']"
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "عدد موارد المجموعات: الأولى 3، الثانية 6، الثالثة 5",
+  "ok": true,
+  "detail": "[3, 6, 5]"
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "تصنيف كل مورد يطابق قاعدة الترخيص والاستثناءات (لا مطابقة أرقام)",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "#/ يوضح أن التقسيم لا يمثل ترتيبًا للجودة",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "#/resources يوضح أن التقسيم لا يمثل ترتيبًا للجودة",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "#/about يوضح أن التقسيم لا يمثل ترتيبًا للجودة",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "#/licenses يوضح أن التقسيم لا يمثل ترتيبًا للجودة",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "شارة «استثناءات لأطراف ثالثة» على موارد المجموعة 3 فقط",
+  "ok": true,
+  "detail": "['im-k5-centers', 'tessa-arabic', 'writing-guide', 'owid-literacy', 'smarthistory-umayyads']"
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة phet-fractions-intro: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة phet-area-builder: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة phet-states-of-matter-basics: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة phet-circuit-dc: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة gsb-counting-animals: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة gsb-i-like-to-read: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة im-k5-centers: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة tessa-arabic: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة openmed-course-ar: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة basic-guide-oer: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة writing-guide: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة py4e: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة owid-literacy: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الفهرس والمجموعات",
+  "test": "بطاقة smarthistory-umayyads: الاسم والمجال والنوع والترخيص ورابط المورد",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "phet-fractions-intro: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "phet-area-builder: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "phet-states-of-matter-basics: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "phet-circuit-dc: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "gsb-counting-animals: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "gsb-i-like-to-read: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "im-k5-centers: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "tessa-arabic: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "openmed-course-ar: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "basic-guide-oer: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "writing-guide: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "py4e: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "owid-literacy: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "smarthistory-umayyads: كل الحقول وروابط المورد والملخص وإثبات الترخيص",
+  "ok": true,
+  "detail": "{'missing': [], 'links': True, 'noopener_missing': 0, 'perm': True}"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "زر «نسخ صيغة النسب» ينسخ النص الصحيح ويعلن ذلك",
+  "ok": true,
+  "detail": "Our World in Data, Literacy, https://ourworldindata.org/lite"
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "المورد الأول: رابط «التالي» فقط",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "صفحات التفاصيل",
+  "test": "التنقل إلى المورد التالي",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "البحث",
+  "test": "«كسور»",
+  "ok": true,
+  "detail": "['phet-fractions-intro']"
+ },
+ {
+  "group": "البحث",
+  "test": "«الكسور»",
+  "ok": true,
+  "detail": "['phet-fractions-intro']"
+ },
+ {
+  "group": "البحث",
+  "test": "«fractions»",
+  "ok": true,
+  "detail": "['phet-fractions-intro']"
+ },
+ {
+  "group": "البحث",
+  "test": "«FRACTIONS»",
+  "ok": true,
+  "detail": "['phet-fractions-intro']"
+ },
+ {
+  "group": "البحث",
+  "test": "«أُحِبُّ»",
+  "ok": true,
+  "detail": "['gsb-i-like-to-read']"
+ },
+ {
+  "group": "البحث",
+  "test": "«احب ان اقرا»",
+  "ok": true,
+  "detail": "['gsb-i-like-to-read']"
+ },
+ {
+  "group": "البحث",
+  "test": "«بايثون»",
+  "ok": true,
+  "detail": "['py4e']"
+ },
+ {
+  "group": "البحث",
+  "test": "«python»",
+  "ok": true,
+  "detail": "['py4e']"
+ },
+ {
+  "group": "البحث",
+  "test": "«الأمويون»",
+  "ok": true,
+  "detail": "['smarthistory-umayyads']"
+ },
+ {
+  "group": "البحث",
+  "test": "«امويون»",
+  "ok": true,
+  "detail": "['smarthistory-umayyads']"
+ },
+ {
+  "group": "البحث",
+  "test": "«Umayyads»",
+  "ok": true,
+  "detail": "['smarthistory-umayyads']"
+ },
+ {
+  "group": "البحث",
+  "test": "«PhET»",
+  "ok": true,
+  "detail": "['phet-fractions-intro', 'phet-area-builder', 'phet-states-of-matter-basics', 'phet-circuit-dc']"
+ },
+ {
+  "group": "البحث",
+  "test": "«مقدمه الكسور»",
+  "ok": true,
+  "detail": "['phet-fractions-intro']"
+ },
+ {
+  "group": "البحث",
+  "test": "«zzzzqq»",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "البحث",
+  "test": "رسالة «لا توجد موارد مطابقة» مع زر إعادة الضبط",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "البحث",
+  "test": "إعادة الضبط تعيد 14 موردًا",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "البحث",
+  "test": "بحث الرئيسة ينتقل إلى الفهرس بالنتائج",
+  "ok": true,
+  "detail": "{'url': 'http://localhost:8765/#/resources?q=%D9%82%D8%B1%D8%A7%D8%A1%D8%A9', 'got': ['gsb-i-like-to-read', 'tessa-arabic', 'owid-literacy']}"
+ },
+ {
+  "group": "البحث",
+  "test": "بحث الفهرس بالإنجليزية (storybooks)",
+  "ok": true,
+  "detail": "['gsb-counting-animals', 'gsb-i-like-to-read']"
+ },
+ {
+  "group": "البحث",
+  "test": "عدد النتائج مُعلن (aria-live)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "التصفية",
+  "test": "domain = العلوم (2)",
+  "ok": true,
+  "detail": "['phet-states-of-matter-basics', 'phet-circuit-dc']"
+ },
+ {
+  "group": "التصفية",
+  "test": "domain = الرياضيات (4)",
+  "ok": true,
+  "detail": "['gsb-counting-animals', 'phet-fractions-intro', 'phet-area-builder', 'im-k5-centers']"
+ },
+ {
+  "group": "التصفية",
+  "test": "domain = اللغة والمهارات (2)",
+  "ok": true,
+  "detail": "['gsb-i-like-to-read', 'writing-guide']"
+ },
+ {
+  "group": "التصفية",
+  "test": "domain = الحاسب والبرمجة (1)",
+  "ok": true,
+  "detail": "['py4e']"
+ },
+ {
+  "group": "التصفية",
+  "test": "domain = العلوم الإنسانية والاجتماعية (2)",
+  "ok": true,
+  "detail": "['owid-literacy', 'smarthistory-umayyads']"
+ },
+ {
+  "group": "التصفية",
+  "test": "domain = التربية والتعليم المفتوح (3)",
+  "ok": true,
+  "detail": "['openmed-course-ar', 'basic-guide-oer', 'tessa-arabic']"
+ },
+ {
+  "group": "التصفية",
+  "test": "type = محاكاة تفاعلية (4)",
+  "ok": true,
+  "detail": "['phet-fractions-intro', 'phet-area-builder', 'phet-states-of-matter-basics', 'phet-circuit-dc']"
+ },
+ {
+  "group": "التصفية",
+  "test": "type = قصة مصورة مسموعة (2)",
+  "ok": true,
+  "detail": "['gsb-counting-animals', 'gsb-i-like-to-read']"
+ },
+ {
+  "group": "التصفية",
+  "test": "type = أنشطة صفية (1)",
+  "ok": true,
+  "detail": "['im-k5-centers']"
+ },
+ {
+  "group": "التصفية",
+  "test": "type = مقرر إلكتروني (1)",
+  "ok": true,
+  "detail": "['openmed-course-ar']"
+ },
+ {
+  "group": "التصفية",
+  "test": "type = كتاب (2)",
+  "ok": true,
+  "detail": "['py4e', 'writing-guide']"
+ },
+ {
+  "group": "التصفية",
+  "test": "type = دليل للمعلم (2)",
+  "ok": true,
+  "detail": "['basic-guide-oer', 'tessa-arabic']"
+ },
+ {
+  "group": "التصفية",
+  "test": "type = منصة ومكتبة رقمية (2)",
+  "ok": true,
+  "detail": "['owid-literacy', 'smarthistory-umayyads']"
+ },
+ {
+  "group": "التصفية",
+  "test": "audience = المرحلة الابتدائية (7)",
+  "ok": true,
+  "detail": "['gsb-counting-animals', 'gsb-i-like-to-read', 'phet-fractions-intro', 'phet-area-builder', 'phet-states-of-matter-basics', 'im-k5-centers', 'tessa-arabic']"
+ },
+ {
+  "group": "التصفية",
+  "test": "audience = المرحلة المتوسطة (4)",
+  "ok": true,
+  "detail": "['phet-fractions-intro', 'phet-area-builder', 'phet-states-of-matter-basics', 'phet-circuit-dc']"
+ },
+ {
+  "group": "التصفية",
+  "test": "audience = المرحلة الثانوية (5)",
+  "ok": true,
+  "detail": "['phet-states-of-matter-basics', 'phet-circuit-dc', 'py4e', 'owid-literacy', 'smarthistory-umayyads']"
+ },
+ {
+  "group": "التصفية",
+  "test": "audience = التعليم الجامعي (6)",
+  "ok": true,
+  "detail": "['openmed-course-ar', 'phet-circuit-dc', 'py4e', 'writing-guide', 'owid-literacy', 'smarthistory-umayyads']"
+ },
+ {
+  "group": "التصفية",
+  "test": "audience = المعلمون وأعضاء هيئة التدريس (4)",
+  "ok": true,
+  "detail": "['openmed-course-ar', 'basic-guide-oer', 'tessa-arabic', 'owid-literacy']"
+ },
+ {
+  "group": "التصفية",
+  "test": "lang = العربية (4)",
+  "ok": true,
+  "detail": "['gsb-counting-animals', 'gsb-i-like-to-read', 'openmed-course-ar', 'tessa-arabic']"
+ },
+ {
+  "group": "التصفية",
+  "test": "lang = متعدد اللغات (منها العربية) (4)",
+  "ok": true,
+  "detail": "['phet-fractions-intro', 'phet-area-builder', 'phet-states-of-matter-basics', 'phet-circuit-dc']"
+ },
+ {
+  "group": "التصفية",
+  "test": "lang = الإنجليزية (6)",
+  "ok": true,
+  "detail": "['basic-guide-oer', 'py4e', 'im-k5-centers', 'writing-guide', 'owid-literacy', 'smarthistory-umayyads']"
+ },
+ {
+  "group": "التصفية",
+  "test": "license = CC BY (5)",
+  "ok": true,
+  "detail": "['gsb-counting-animals', 'gsb-i-like-to-read', 'openmed-course-ar', 'im-k5-centers', 'owid-literacy']"
+ },
+ {
+  "group": "التصفية",
+  "test": "license = CC BY-SA (2)",
+  "ok": true,
+  "detail": "['basic-guide-oer', 'tessa-arabic']"
+ },
+ {
+  "group": "التصفية",
+  "test": "license = CC BY-NC (4)",
+  "ok": true,
+  "detail": "['phet-fractions-intro', 'phet-area-builder', 'phet-states-of-matter-basics', 'phet-circuit-dc']"
+ },
+ {
+  "group": "التصفية",
+  "test": "license = CC BY-NC-SA (3)",
+  "ok": true,
+  "detail": "['py4e', 'writing-guide', 'smarthistory-umayyads']"
+ },
+ {
+  "group": "التصفية",
+  "test": "كل خيار تصفية يطابق مورداً واحداً على الأقل ومجموع المجالات = 14",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "التصفية",
+  "test": "دمج عاملين (AND بين المجموعات)",
+  "ok": true,
+  "detail": "['gsb-counting-animals', 'gsb-i-like-to-read', 'tessa-arabic']"
+ },
+ {
+  "group": "التصفية",
+  "test": "خياران في المجموعة نفسها (OR داخل المجموعة)",
+  "ok": true,
+  "detail": "['gsb-counting-animals', 'gsb-i-like-to-read', 'im-k5-centers', 'tessa-arabic']"
+ },
+ {
+  "group": "التصفية",
+  "test": "حالة التصفية محفوظة في الرابط وتبقى بعد إعادة التحميل",
+  "ok": true,
+  "detail": "http://localhost:8765/#/resources?audience=%D8%A7%D9%84%D9%85%D8%B1%D8%AD%D9%84%D8%A9+%D8%A7%D9%84%D8%A7%D8%A8%D8%AA%D8%AF%D8%A7%D8%A6%D9%8A%D8%A9&lang=%D8%A7%D9%84%D8%B9%D8%B1%D8%A8%D9%8A%D8%A9&lang=%D8%A7%D9%84%D8%A5%D9%86%D8%AC%D9%84%D9%8A%D8%B2%D9%8A%D8%A9"
+ },
+ {
+  "group": "التصفية",
+  "test": "أعداد الخيارات تُحسب ضمن التصفية الحالية",
+  "ok": true,
+  "detail": "['3', '3', '1']"
+ },
+ {
+  "group": "التصفية",
+  "test": "إزالة عامل عبر الشريحة",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "التصفية",
+  "test": "زر إعادة الضبط يمسح كل العوامل",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "التصفية",
+  "test": "البحث + التصفية معًا",
+  "ok": true,
+  "detail": "['phet-states-of-matter-basics', 'phet-circuit-dc']"
+ },
+ {
+  "group": "التصفية",
+  "test": "قيمة تصفية غير صحيحة في الرابط تُتجاهل بأمان",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "التصفية",
+  "test": "إدخال HTML في البحث لا يُنفَّذ (تهريب آمن)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "إمكانية الوصول",
+  "test": "أول عنصر بالتبويب هو «تخطَّ إلى المحتوى»",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "إمكانية الوصول",
+  "test": "lang=\"ar\" و dir=\"rtl\"",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "إمكانية الوصول",
+  "test": "#/: معرّفات فريدة، نص بديل، تسميات الحقول، روابط وأزرار لها أسماء، تسلسل العناوين",
+  "ok": true,
+  "detail": "{'dup': [], 'noalt': 0, 'inputs': 0, 'emptyLinks': 0, 'btn': 0, 'skip': 0}"
+ },
+ {
+  "group": "إمكانية الوصول",
+  "test": "#/resources: معرّفات فريدة، نص بديل، تسميات الحقول، روابط وأزرار لها أسماء، تسلسل العناوين",
+  "ok": true,
+  "detail": "{'dup': [], 'noalt': 0, 'inputs': 0, 'emptyLinks': 0, 'btn': 0, 'skip': 0}"
+ },
+ {
+  "group": "إمكانية الوصول",
+  "test": "#/resource/tessa-arabic: معرّفات فريدة، نص بديل، تسميات الحقول، روابط وأزرار لها أسماء، تسلسل العناوين",
+  "ok": true,
+  "detail": "{'dup': [], 'noalt': 0, 'inputs': 0, 'emptyLinks': 0, 'btn': 0, 'skip': 0}"
+ },
+ {
+  "group": "إمكانية الوصول",
+  "test": "#/licenses: معرّفات فريدة، نص بديل، تسميات الحقول، روابط وأزرار لها أسماء، تسلسل العناوين",
+  "ok": true,
+  "detail": "{'dup': [], 'noalt': 0, 'inputs': 0, 'emptyLinks': 0, 'btn': 0, 'skip': 0}"
+ },
+ {
+  "group": "إمكانية الوصول",
+  "test": "#/about: معرّفات فريدة، نص بديل، تسميات الحقول، روابط وأزرار لها أسماء، تسلسل العناوين",
+  "ok": true,
+  "detail": "{'dup': [], 'noalt': 0, 'inputs': 0, 'emptyLinks': 0, 'btn': 0, 'skip': 0}"
+ },
+ {
+  "group": "إمكانية الوصول",
+  "test": "التصفية بلوحة المفاتيح مع بقاء التركيز على الخانة",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "إمكانية الوصول",
+  "test": "تباين كل أزواج النص/الخلفية ≥ 4.5:1 (WCAG AA)",
+  "ok": true,
+  "detail": "[('#111144', '#FFFFFF', 17.68), ('#111144', '#FAFAF7', 16.91), ('#4A4F6A', '#FFFFFF', 8.02), ('#4A4F6A', '#F2F2F2', 7.17)]"
+ },
+ {
+  "group": "التجاوب",
+  "test": "لا تمرير أفقي عند العرض 320px",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "التجاوب",
+  "test": "لا تمرير أفقي عند العرض 390px",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "التجاوب",
+  "test": "لا تمرير أفقي عند العرض 768px",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "التجاوب",
+  "test": "لا تمرير أفقي عند العرض 1024px",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "التجاوب",
+  "test": "لا تمرير أفقي عند العرض 1440px",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "التجاوب",
+  "test": "لا تمرير أفقي عند العرض 1920px",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "التجاوب",
+  "test": "القائمة مطوية على الجوال وتُفتح بالزر",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "التجاوب",
+  "test": "زر القائمة يفتحها ويحدّث aria-expanded",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "التجاوب",
+  "test": "اختيار رابط يغلق القائمة",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "الأصول والأداء",
+  "test": "لا طلبات شبكة خارجية عند التحميل",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "الأصول والأداء",
+  "test": "لا طلبات فاشلة (4xx/5xx)",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "الأصول والأداء",
+  "test": "خط Alexandria محمَّل من الملفات المحلية",
+  "ok": true,
+  "detail": "4"
+ },
+ {
+  "group": "الأصول والأداء",
+  "test": "صورة البطل محلية ومحمّلة وبحجم أصغر (470px) دون قص",
+  "ok": true,
+  "detail": "{'w': 470, 'nw': 690, 'nh': 765, 'h': 521, 'ok': True}"
+ },
+ {
+  "group": "الأصول والأداء",
+  "test": "حجم الموقع كاملًا أقل من 1 ميغابايت",
+  "ok": true,
+  "detail": "443 KB"
+ },
+ {
+  "group": "الأصول والأداء",
+  "test": "زمن DOMContentLoaded محليًا",
+  "ok": true,
+  "detail": "39 ms"
+ },
+ {
+  "group": "الأصول والأداء",
+  "test": "لا أخطاء في وحدة التحكم طوال الاختبار",
+  "ok": true,
+  "detail": "[]"
+ },
+ {
+  "group": "التوافق",
+  "test": "بديل noscript يسرد الموارد الأربعة عشر",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "التوافق",
+  "test": "الموقع يعمل بفتح index.html مباشرة (file://)",
+  "ok": true,
+  "detail": ""
+ },
+ {
+  "group": "التوافق",
+  "test": "صفحة 404.html موجودة",
+  "ok": true,
+  "detail": ""
+ }
+]
