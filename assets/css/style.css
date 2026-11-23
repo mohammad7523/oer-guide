@@ -257,3 +257,12 @@ h1[tabindex="-1"]:focus{outline:none}
 .badges a{text-decoration:none}.badges a:hover{border-color:var(--green)}
 .hgrid>*,.igrid>*,.dgrid2>*{min-width:0}
 @media (max-width:860px){.hgrid{grid-template-columns:minmax(0,1fr)}}
+/* بيانات إعداد المشروع والإشراف في التذييل */
+.credits{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:6px 0;margin-top:26px;padding:14px 0;border-top:1px solid rgba(255,255,255,.12);text-align:center}
+.credits p{margin:0;padding:2px 18px;font-size:14.5px;line-height:1.7;color:#E4E5F3}
+.credits p+p{border-inline-start:1px solid rgba(255,255,255,.22)}
+.credits .cr-k{color:#A9ACC9;font-weight:500}
+.credits .cr-v{color:#fff;font-weight:600}
+.credits .cr-u{color:var(--turq);font-weight:500}
+.credits+.fbot{margin-top:0}
+@media (max-width:560px){.credits{flex-direction:column;gap:2px}.credits p+p{border:0}.credits p{font-size:14px}}
